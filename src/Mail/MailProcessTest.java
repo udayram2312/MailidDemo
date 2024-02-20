@@ -1,3 +1,5 @@
+package Mail;
+
 public class MailProcessTest {
     public static void main(String[] args){
         MailProcess Process = new MailProcess();

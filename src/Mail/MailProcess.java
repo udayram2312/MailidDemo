@@ -1,5 +1,7 @@
+package Mail;
+
 public class MailProcess {
-    boolean login(MailDetails details) {
+    boolean login(MailDetails  details) {
         String Mail="ram@gamil.com";
         String Password="ram@123";
         if (Mail.equals(details.Mail) && Password.equals(details.Password)) {
